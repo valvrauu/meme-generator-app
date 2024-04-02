@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 2rem;
+
+    background: linear-gradient(90deg, #672280, #A626D3);
+}
