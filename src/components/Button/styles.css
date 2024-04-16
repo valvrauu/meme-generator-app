@@ -1,0 +1,32 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    border: 0;
+    cursor: pointer;
+}
+
+.button .photo {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.button--primary {
+    padding: 1rem;
+
+    color: #fff;
+    background: linear-gradient(90deg, #711F8D, #A818DA);
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -.1em;
+
+    border-radius: 5px;
+    transition: filter 250ms;
+}
+
+.button--primary:hover {
+    filter: saturate(75%);
+}
