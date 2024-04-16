@@ -6,7 +6,24 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+
   font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  min-width: 20rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
